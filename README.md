@@ -11,18 +11,18 @@
   </a>
 
   <!-- NPM version -->
-  <a href="https://www.npmjs.com/package/naruyaizumi">
-    <img src="https://img.shields.io/npm/v/naruyaizumi?color=blue&label=naruyaizumi&logo=npm" alt="npm version">
+  <a href="https://www.npmjs.com/package/mamixx55">
+    <img src="https://img.shields.io/npm/v/mamixx55?color=blue&label=mamixx55&logo=npm" alt="npm version">
   </a>
 
   <!-- NPM total downloads -->
-  <a href="https://www.npmjs.com/package/naruyaizumi">
-    <img src="https://img.shields.io/npm/dt/naruyaizumi?label=downloads&logo=npm" alt="npm downloads">
+  <a href="https://www.npmjs.com/package/mamixx55">
+    <img src="https://img.shields.io/npm/dt/mamixx55?label=downloads&logo=npm" alt="npm downloads">
   </a>
 
   <!-- GitHub Stars -->
-  <a href="https://github.com/naruyaizumi/baileys">
-    <img src="https://img.shields.io/github/stars/naruyaizumi/baileys?style=social" alt="GitHub stars">
+  <a href="https://github.com/aniess1552/baileys">
+    <img src="https://img.shields.io/github/stars/aniess1552/baileys?style=social" alt="GitHub stars">
   </a>
 
   <!-- WhatsApp Channel -->
@@ -31,13 +31,13 @@
   </a>
 
   <!-- GitHub Repo -->
-  <a href="https://github.com/naruyaizumi">
-    <img src="https://img.shields.io/badge/GitHub-naruyaizumi-181717?logo=github" alt="GitHub Profile">
+  <a href="https://github.com/aniess1552">
+    <img src="https://img.shields.io/badge/GitHub-aniess1552-181717?logo=github" alt="GitHub Profile">
   </a>
 
   <!-- Instagram -->
-  <a href="https://instagram.com/naruyaizumi_">
-    <img src="https://img.shields.io/badge/Instagram-@naruyaizumi-E4405F?logo=instagram&logoColor=white" alt="Instagram">
+  <a href="https://instagram.com/mamix__15_">
+    <img src="https://img.shields.io/badge/Instagram-@mamix__15-E4405F?logo=instagram&logoColor=white" alt="Instagram">
   </a>
 </p>
 
@@ -72,13 +72,13 @@ Modifikasi ini difokuskan untuk membuat versi yang **sepenuhnya berbasis JavaScr
 Gunakan salah satu manajer paket berikut untuk menginstal versi stabil:
 
 ```bash
-npm install naruyaizumi
+npm install mamixbaileys
 ```
 ```bash
-yarn add naruyaizumi
+yarn add mamixbaileys
 ```
 ```bash
-pnpm add naruyaizumi
+pnpm add mamixbaileys
 ```
 ## Informasi
 
@@ -105,7 +105,7 @@ Kamu bisa menghubungkan akun dengan dua metode utama: **Kode QR** atau **Kode Pa
 > Lihat daftar nama browser yang tersedia di [📘 dokumentasi](https://baileys.whiskeyconnets.io/types/BrowsersMap.html)
 
 ```javascript
-import makeWAconnet, { Browsers } from 'naruyaizumi'
+import makeWAconnet, { Browsers } from 'mamixbaileys'
 
 const conn = makeWAconnet({
   browser: Browsers.ubuntu('Safari'),
@@ -121,7 +121,7 @@ Pindai menggunakan WhatsApp untuk login~ 🩵
 Kalau kamu pakai CommonJS (Node.js versi `require`), pakai ini ya:
 
 ```javascript
-const { default: makeWAconnet, Browsers } = require('naruyaizumi')
+const { default: makeWAconnet, Browsers } = require('mamixbaileys')
 
 const conn = makeWAconnet({
   browser: Browsers.ubuntu('Safari'),
@@ -138,7 +138,7 @@ Cuma bisa dipakai di *WhatsApp Web* ya (bukan Android/iOS) 💻
 
 #### 🌈 ESM (ECMAScript Module)
 ```javascript
-import makeWAconnet, { Browsers } from 'naruyaizumi'
+import makeWAconnet, { Browsers } from 'mamixbaileys'
 
 const conn = makeWAconnet({
   browser: Browsers.ubuntu('Safari'),
@@ -149,7 +149,7 @@ const conn = makeWAconnet({
 
 #### 🎀 CommonJS
 ```javascript
-const { default: makeWAconnet, Browsers } = require('naruyaizumi')
+const { default: makeWAconnet, Browsers } = require('mamixbaileys')
 
 const conn = makeWAconnet({
   browser: Browsers.ubuntu('Safari'),
@@ -172,7 +172,7 @@ Ketik di WhatsApp Web dan kamu langsung terhubung! 🌐✨
 Gunakan hanya angka murni, dan pastikan sudah menyertakan kode negara 🌐
 
 ```javascript
-import makeWAconnet from 'naruyaizumi'
+import makeWAconnet from 'mamixbaileys'
 
 const conn = makeWAconnet({
   // Konfigurasi tambahan dapat disesuaikan di sini
@@ -196,7 +196,7 @@ if (!conn.authState.creds.registered) {
 2. WhatsApp akan mengirim lebih banyak riwayat jika kamu meniru koneksi **desktop resmi** (WhatsApp Web) dengan konfigurasi browser tertentu 👩‍💻
 
 ```javascript
-import makeWAconnet, { Browsers } from 'naruyaizumi'
+import makeWAconnet, { Browsers } from 'mamixbaileys'
 
 const conn = makeWAconnet({
   ...otherOpts,
@@ -220,7 +220,7 @@ const conn = makeWAconnet({
 Contoh implementasi cache menggunakan `node-cache`:
 
 ```javascript
-import makeWAconnet from 'naruyaizumi'
+import makeWAconnet from 'mamixbaileys'
 import NodeCache from 'node-cache'
 
 const groupCache = new NodeCache({ stdTTL: 5 * 60, useClones: false })
@@ -312,7 +312,7 @@ Event-nya sudah diketik sempurna (TypeScript friendly), jadi dukungan Intellisen
 ### 📥 Contoh: Menerima Pesan Masuk
 
 ```javascript
-import makeWAconnet from 'naruyaizumi'
+import makeWAconnet from 'mamixbaileys'
 
 const conn = makeWAconnet()
 
@@ -385,7 +385,7 @@ Tentu kamu tidak ingin terus-menerus memindai QR code setiap kali ingin terkonek
 Kamu bisa menyimpan kredensial dan menggunakannya kembali saat login berikutnya:
 
 ```javascript
-import makeWAconnet, { useMultiFileAuthState } from 'naruyaizumi'
+import makeWAconnet, { useMultiFileAuthState } from 'mamixbaileys'
 
 const { state, saveCreds } = await useMultiFileAuthState('auth_info_baileys')
 
@@ -448,7 +448,7 @@ Dengan cara ini, kamu bisa memisahkan sesi tiap user tanpa saling bentrok 🔄
 > Contoh ini juga sudah mencakup penyimpanan kredensial secara otomatis
 
 ```javascript
-import makeWAconnet, { DisconnectReason, useMultiFileAuthState } from 'naruyaizumi'
+import makeWAconnet, { DisconnectReason, useMultiFileAuthState } from 'mamixbaileys'
 import { Boom } from '@hapi/boom'
 
 async function connectToWhatsApp () {
@@ -497,7 +497,7 @@ connectToWhatsApp()
 ```javascript
 import makeWAconnet, {
   useSingleFileAuthState
-} from 'naruyaizumi'
+} from 'mamixbaileys'
 
 const { state, saveState } = await useSingleFileAuthState('./auth_info_baileys.json')
 
@@ -514,7 +514,7 @@ conn.ev.on('creds.update', saveState)
 ```javascript
 import makeWAconnet, {
   useMongoFileAuthState
-} from 'naruyaizumi'
+} from 'mamixbaileys'
 import { MongoClient } from 'mongodb'
 
 const connectAuth = async () => {
@@ -523,7 +523,7 @@ const connectAuth = async () => {
 
   console.log('✅ Berhasil terhubung ke MongoDB')
 
-  const collection = client.db('naruyaizumi').collection('sessions')
+  const collection = client.db('mamixbaileys').collection('sessions')
   const { state, saveCreds } = await useMongoFileAuthState(collection)
 
   const conn = makeWAconnet({
@@ -553,9 +553,9 @@ import pino from 'pino'
 import {
   makeInMemoryStore,
   getAggregateVotesInPollMessage
-} from 'naruyaizumi'
+} from 'mamixbaileys'
 
-const logger = pino({ timestamp: () => `,"time":"${new Date().toJSON()}"` }).child({ class: 'NaruyaIzumi' })
+const logger = pino({ timestamp: () => `,"time":"${new Date().toJSON()}"` }).child({ class: 'Mamix' })
 logger.level = 'fatal'
 const store = makeInMemoryStore({ logger })
 
@@ -631,7 +631,7 @@ Namun, tersedia implementasi sederhana menggunakan **in-memory store** 🌼 Stor
 ### 🧪 Contoh Penggunaan Store
 
 ```javascript
-import makeWAconnet, { makeInMemoryStore } from 'naruyaizumi'
+import makeWAconnet, { makeInMemoryStore } from 'mamixbaileys'
 
 // 🧠 Store akan menyimpan data koneksi WhatsApp dalam memori
 const store = makeInMemoryStore({})
@@ -820,7 +820,7 @@ Gunakan `@nomor` dalam teks dan sertakan `mentions` di payload.
 await conn.sendMessage(
   jid,
   {
-    text: '@628XXXXXXXXX Hai Izumi!',
+    text: '@628XXXXXXXXX Hai Mamix!',
     mentions: ['628XXXXXXXXX@s.whatsapp.net']
   }
 )
@@ -865,7 +865,7 @@ await conn.sendMessage(
 const vcard =
   'BEGIN:VCARD\n' +
   'VERSION:3.0\n' +
-  'FN:Naruya Izumi\n' +
+  'FN:Mamix\n' +
   'ORG:ZERO DEV;\n' +
   'TEL;type=CELL;type=VOICE;waid=628XXXXXXXXX:+62 831-4366-3697\n' +
   'END:VCARD'
@@ -874,7 +874,7 @@ await conn.sendMessage(
   jid,
   {
     contacts: {
-      displayName: 'Naruya Izumi',
+      displayName: 'Mamix',
       contacts: [{ vcard }]
     }
   }
@@ -1046,7 +1046,7 @@ await conn.sendMessage(
       description: 'Deskripsi', 
       currencyCode: 'IDR', 
       priceAmount1000: '50000', 
-      retailerId: 'store-izumi', // opsional
+      retailerId: 'store-Mamix', // opsional
       url: 'https://linkproduk.com', // opsional
       productImageCount: 1, 
       firstImageId: 'img-001', // opsional
@@ -1109,7 +1109,7 @@ await conn.sendMessage(
   {
     adminInvite: {
       jid: '123xxx@newsletter',
-      name: 'Channel Naruya',
+      name: 'Channel Mamix',
       caption: 'Tolong jadi admin channel saya ya!',
       expiration: 86400, // dalam detik (24 jam)
       jpegThumbnail: Buffer // opsional, bisa berupa buffer gambar
@@ -1128,7 +1128,7 @@ await conn.sendMessage(
   {
     groupInvite: {
       jid: '123xxx@g.us',
-      name: 'Grup Dev Naruya',
+      name: 'Grup Dev Mamix',
       caption: 'Ayo gabung ke grup WhatsApp kami!',
       code: 'ABCD1234', // kode undangan grup
       expiration: 86400,
@@ -1210,7 +1210,7 @@ await conn.sendMessage(
   {
     text: '📨 Ini adalah pesan tombol!',
     caption: '🖼️ Gunakan jika memakai gambar/video',
-    footer: '📩 Salam dari Naruya Izumi!',
+    footer: '📩 Salam dari Mamix!',
     buttons: [
       { 
         buttonId: 'btn1', 
@@ -1242,7 +1242,7 @@ await conn.sendMessage(
   jid,
   {
     text: '📑 Ini adalah daftar pilihan!',
-    footer: '📩 Dipersembahkan oleh Naruya Izumi',
+    footer: '📩 Dipersembahkan oleh Mamix',
     title: '📌 Judul Daftar Pilihan',
     buttonText: '🔽 Klik untuk melihat opsi',
     sections: [
@@ -1276,7 +1276,7 @@ await conn.sendMessage(
   jid,
   {
     text: '🛒 Ini adalah daftar produk!',
-    footer: '📩 Dikirim oleh Naruya Izumi',
+    footer: '📩 Dikirim oleh Mamix',
     title: '🌟 Pilih Produk Unggulan',
     buttonText: '📦 Lihat Daftar Produk',
     productList: [
@@ -1370,7 +1370,7 @@ await conn.sendMessage(
   jid,
   {
     text: '✨ Ini adalah pesan template tombol!',
-    footer: '📩 Dikirim oleh Naruya Izumi',
+    footer: '📩 Dikirim oleh Mamix',
     templateButtons: [
       {
         index: 1,
@@ -1409,7 +1409,7 @@ await conn.sendMessage(
     text: '✨ Ini pesan interaktif!',
     title: '👋 Hai!',
     subtitle: '🌼 Subjudul di sini',
-    footer: '📩 Dikirim oleh Naruya Izumi',
+    footer: '📩 Dikirim oleh Mamix',
     interactiveButtons: [
       {
         name: 'quick_reply',
@@ -1533,7 +1533,7 @@ await conn.sendMessage(
     location: {
       degreesLatitude: -6.2,
       degreesLongitude: 106.8,
-      name: 'Naruya HQ'
+      name: 'MamixHQ'
     },
     caption: '📍 Ayo ke sini!',
     title: '🗺️ Lokasi Tujuan',
@@ -1557,7 +1557,7 @@ await conn.sendMessage(
       description: '🛒 Deskripsi produk terbaik',
       currencyCode: 'IDR',
       priceAmount1000: '283000',
-      retailerId: 'NaruyaStore',
+      retailerId: 'MamixStore',
       url: 'https://example.com',
       productImageCount: 1
     },
@@ -1590,8 +1590,8 @@ await conn.sendMessage(
           payment_settings: [{
             type: "pix_static_code",
             pix_static_code: {
-              merchant_name: 'naruyaizumi',
-              key: 'example@naruyaizumi.com',
+              merchant_name: 'mamix',
+              key: 'example@mamix.com',
               key_type: 'EMAIL' // Bisa juga: PHONE, EMAIL, CPF, atau EVP
             }
           }]
@@ -1615,7 +1615,7 @@ await conn.sendStatusMentions(
     image: {
       url: 'https://example.com.jpg'
     }, 
-    caption: '✨ Halo dari Naruya!'
+    caption: '✨ Halo dari Mamix!'
   }
 )
 ```
@@ -1662,7 +1662,7 @@ await conn.sendMessage(
     text: 'Body pesan',
     title: 'Judul Toko', 
     subtitle: 'Subjudul', 
-    footer: 'Powered by Naruya',
+    footer: 'Powered by Mamix',
     shop: {
       surface: 1,
       id: 'https://example.com'
@@ -1770,7 +1770,7 @@ await conn.sendMessage(
       description: 'Deskripsi produk menarik',
       currencyCode: 'IDR',
       priceAmount1000: '283000',
-      retailerId: 'NaruyaStore',
+      retailerId: 'MamixStore',
       url: 'https://example.com',
       productImageCount: 1
     },
@@ -1801,7 +1801,7 @@ await conn.sendMessage(
     text: 'Isi pesan',
     title: 'Judul Koleksi',
     subtitle: 'Subjudul',
-    footer: 'Dari Naruya Izumi',
+    footer: 'Dari Mamix',
     collection: {
       bizJid: '628xxx@s.whatsapp.net', 
       id: 'https://example.com', 
@@ -1821,7 +1821,7 @@ await conn.sendMessage(
     caption: 'Koleksi Gambar',
     title: 'Judul Koleksi',
     subtitle: 'Subjudul',
-    footer: 'Katalog Naruya',
+    footer: 'Katalog Mamix',
     collection: {
       bizJid: '628xxx@s.whatsapp.net', 
       id: 'https://example.com',
@@ -1914,7 +1914,7 @@ await conn.sendMessage(
       description: 'Deskripsi produk',
       currencyCode: 'IDR',
       priceAmount1000: '283000',
-      retailerId: 'NaruyaStore',
+      retailerId: 'MamixStore',
       url: 'https://example.com',
       productImageCount: 1
     },
@@ -2088,7 +2088,7 @@ Jika kamu ingin menyimpan media yang diterima dari pengguna:
 
 ```javascript
 import { createWriteStream } from 'fs'
-import { downloadMediaMessage, getContentType } from 'naruyaizumi'
+import { downloadMediaMessage, getContentType } from 'mamixbaileys'
 
 conn.ev.on('messages.upsert', async ({ messages }) => {
 let m = messages[0]
@@ -2373,7 +2373,7 @@ await conn.updateProfileStatus('Halo Dunia!')
 ### 🪪 Ubah Nama Profil
 
 ```javascript
-await conn.updateProfileName('Naruya Izumi')
+await conn.updateProfileName('Mamix')
 ```
 
 ### 📷 Ubah Foto Profil (termasuk grup)
@@ -2398,7 +2398,7 @@ await conn.removeProfilePicture(jid)
 ### 📌 Membuat Grup
 
 ```javascript
-let group = await conn.groupCreate('Grup Hebat Naruya', ['1234@s.whatsapp.net', '4564@s.whatsapp.net'])
+let group = await conn.groupCreate('Grup Hebat Mamix', ['1234@s.whatsapp.net', '4564@s.whatsapp.net'])
 console.log('Grup berhasil dibuat dengan ID: ' + group.gid)
 
 await conn.sendMessage(group.id, { text: 'Halo semuanya!' })
@@ -2881,7 +2881,7 @@ Kalau masih ada yang bikin bingung, langsung aja gabung ke grup WhatsApp buat ta
 > 📖 Dokumentasi ini disusun karena gabut, semangat ngoding, dan jangan lupa makan 🍓
 
 **💌 Kontak & Bantuan:**  
-🧠 [GitHub](github.com/naruyaizumi)
+🧠 [GitHub](github.com/aniess1552)
 📱 [Gabung grup WA](https://chat.whatsapp.com/J9DANHhVooxDslMY6Emjhi)
 
 ✨ Powered by: `Baileys` 🦄
