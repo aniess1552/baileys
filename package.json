@@ -1,5 +1,5 @@
 {
-  "name": "naruyaizumi",
+  "name": "mamixbaileys",
   "version": "26.0.4",
   "description": "baileys whatsapp-api",
   "keywords": [
@@ -7,9 +7,9 @@
     "whatsapp",
     "baileys"
   ],
-  "homepage": "https://github.com/naruyaizumi/baileys",
+  "homepage": "https://github.com/aniess1552/baileys",
   "repository": {
-    "url": "https://github.com/naruyaizumi/baileys"
+    "url": "https://github.com/aniess1552/baileys"
   },
   "license": "MIT",
   "author": "Naruya Izumi",
@@ -50,6 +50,6 @@
     "lib": "lib"
   },
   "bugs": {
-    "url": "https://github.com/naruyaizumi/baileys/issues"
+    "url": "https://github.com/aniess1552/baileys/issues"
   }
 }
