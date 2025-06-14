@@ -11,13 +11,13 @@
   </a>
 
   <!-- NPM version -->
-  <a href="https://www.npmjs.com/package/mamixx55">
-    <img src="https://img.shields.io/npm/v/mamixx55?color=blue&label=mamixx55&logo=npm" alt="npm version">
+  <a href="https://www.npmjs.com/package/mamix55">
+    <img src="https://img.shields.io/npm/v/mamix55?color=blue&label=mamix55&logo=npm" alt="npm version">
   </a>
 
   <!-- NPM total downloads -->
-  <a href="https://www.npmjs.com/package/mamixx55">
-    <img src="https://img.shields.io/npm/dt/mamixx55?label=downloads&logo=npm" alt="npm downloads">
+  <a href="https://www.npmjs.com/package/mamix55">
+    <img src="https://img.shields.io/npm/dt/mamix55?label=downloads&logo=npm" alt="npm downloads">
   </a>
 
   <!-- GitHub Stars -->
